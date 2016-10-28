@@ -1,0 +1,628 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<citylist>
+    <p p_id="01">
+        <pn>北京</pn>
+        <c c_id="0101">
+            <cn>东城区</cn>
+            <cn>西城区</cn>
+            <cn>海淀区</cn>
+            <cn>朝阳区</cn>
+            <cn>丰台区</cn>
+            <cn>石景山区</cn>
+            <cn>通州区</cn>
+            <cn>顺义区</cn>
+            <cn>房山区</cn>
+            <cn>大兴区</cn>
+            <cn>昌平区</cn>
+            <cn>怀柔区</cn>
+            <cn>平谷区</cn>
+            <cn>门头沟区</cn>
+            <cn>延庆县</cn>
+            <cn>密云县</cn>
+        </c>
+    </p>
+    <p p_id="02">
+        <pn>上海</pn>
+        <c c_id="0201">
+            <cn>浦东新区</cn>
+            <cn>徐汇区</cn>
+            <cn>长宁区</cn>
+            <cn>普陀区</cn>
+            <cn>闸北区</cn>
+            <cn>虹口区</cn>
+            <cn>杨浦区</cn>
+            <cn>黄浦区</cn>
+            <cn>卢湾区</cn>
+            <cn>静安区</cn>
+            <cn>宝山区</cn>
+            <cn>闵行区</cn>
+            <cn>嘉定区</cn>
+            <cn>金山区</cn>
+            <cn>松江区</cn>
+            <cn>青浦区</cn>
+            <cn>南汇区</cn>
+            <cn>奉贤区</cn>
+            <cn>崇明县</cn>
+        </c>
+    </p>
+    <p p_id="03">
+        <pn>天津</pn>
+        <c c_id="0301">
+            <cn>河东</cn>
+            <cn>南开</cn>
+            <cn>河西</cn>
+            <cn>河北</cn>
+            <cn>和平</cn>
+            <cn>红桥</cn>
+            <cn>东丽</cn>
+            <cn>津南</cn>
+            <cn>西青</cn>
+            <cn>北辰</cn>
+            <cn>塘沽</cn>
+            <cn>汉沽</cn>
+            <cn>大港</cn>
+            <cn>蓟县</cn>
+            <cn>宝坻</cn>
+            <cn>宁河</cn>
+            <cn>静海</cn>
+            <cn>武清</cn>
+        </c>
+    </p>
+    <p p_id="04">
+        <pn>重庆</pn>
+        <c c_id="0401">
+            <cn>渝中区</cn>
+            <cn>大渡口区</cn>
+            <cn>江北区</cn>
+            <cn>沙坪坝区</cn>
+            <cn>九龙坡区</cn>
+            <cn>南岸区</cn>
+            <cn>北碚区</cn>
+            <cn>万盛区</cn>
+            <cn>双桥区</cn>
+            <cn>渝北区</cn>
+            <cn>巴南区</cn>
+            <cn>万州区</cn>
+            <cn>涪陵区</cn>
+            <cn>黔江区</cn>
+            <cn>长寿区</cn>
+            <cn>江津区</cn>
+            <cn>合川区</cn>
+            <cn>永川区</cn>
+            <cn>南川区</cn>
+        </c>
+    </p>
+
+    <p p_id="05">
+        <pn>黑龙江</pn>
+        <c c_id="0501">
+            <cn>哈尔滨</cn>
+            <cn>齐齐哈尔</cn>
+            <cn>鸡西</cn>
+            <cn>牡丹江</cn>
+            <cn>佳木斯</cn>
+            <cn>大庆</cn>
+            <cn>伊春</cn>
+            <cn>黑河</cn>
+            <cn>大兴安岭</cn>
+        </c>
+    </p>
+
+    <p p_id="06">
+        <pn>吉林</pn>
+        <c c_id="0601">
+            <cn>长春</cn>
+            <cn>吉林市</cn>
+            <cn>四平</cn>
+            <cn>辽源</cn>
+            <cn>通化</cn>
+            <cn>白山</cn>
+            <cn>松原</cn>
+            <cn>白城</cn>
+            <cn>延边朝鲜族自治区</cn>
+        </c>
+    </p>
+
+    <p p_id="07">
+        <pn>辽宁</pn>
+        <c c_id="0701">
+            <cn>沈阳</cn>
+            <cn>大连</cn>
+            <cn>鞍山</cn>
+            <cn>抚顺</cn>
+            <cn>本溪</cn>
+            <cn>丹东</cn>
+            <cn>锦州</cn>
+            <cn>营口</cn>
+            <cn>阜新</cn>
+            <cn>辽阳</cn>
+            <cn>盘锦</cn>
+            <cn>铁岭</cn>
+            <cn>朝阳</cn>
+            <cn>葫芦岛</cn>
+        </c>
+    </p>
+
+    <p p_id="08">
+        <pn>内蒙古</pn>
+        <c c_id="0801">
+            <cn>呼和浩特</cn>
+            <cn>包头</cn>
+            <cn>乌海</cn>
+            <cn>赤峰</cn>
+            <cn>通辽</cn>
+            <cn>鄂尔多斯</cn>
+            <cn>呼伦贝尔</cn>
+            <cn>巴彦淖尔</cn>
+            <cn>乌兰察布</cn>
+        </c>
+    </p>
+
+    <p p_id="09">
+        <pn>河北</pn>
+        <c c_id="0901">
+            <cn>石家庄</cn>
+            <cn>保定</cn>
+            <cn>唐山</cn>
+            <cn>邯郸</cn>
+            <cn>承德</cn>
+            <cn>廊坊</cn>
+            <cn>衡水</cn>
+            <cn>秦皇岛</cn>
+            <cn>张家口</cn>
+        </c>
+    </p>
+
+    <p p_id="10">
+        <pn>山西</pn>
+        <c c_id="1001">
+            <cn>太原</cn>
+            <cn>大同</cn>
+            <cn>阳泉</cn>
+            <cn>长治</cn>
+            <cn>晋城</cn>
+            <cn>朔州</cn>
+            <cn>晋中</cn>
+            <cn>运城</cn>
+            <cn>忻州</cn>
+            <cn>临汾</cn>
+            <cn>吕梁</cn>
+        </c>
+    </p>
+
+    <p p_id="11">
+        <pn>陕西</pn>
+        <c c_id="1101">
+            <cn>西安</cn>
+            <cn>宝鸡</cn>
+            <cn>咸阳</cn>
+            <cn>渭南</cn>
+            <cn>铜川</cn>
+            <cn>延安</cn>
+            <cn>榆林</cn>
+            <cn>汉中</cn>
+            <cn>安康</cn>
+            <cn>商洛</cn>
+        </c>
+    </p>
+
+    <p p_id="12">
+        <pn>山东</pn>
+        <c c_id="1201">
+            <cn>济南</cn>
+            <cn>青岛</cn>
+            <cn>菏泽</cn>
+            <cn>淄博</cn>
+            <cn>枣庄</cn>
+            <cn>东营</cn>
+            <cn>烟台</cn>
+            <cn>潍坊</cn>
+            <cn>济宁</cn>
+            <cn>泰安</cn>
+            <cn>威海</cn>
+            <cn>日照</cn>
+            <cn>滨州</cn>
+            <cn>德州</cn>
+            <cn>聊城</cn>
+            <cn>临沂</cn>
+        </c>
+    </p>
+
+    <p p_id="13">
+        <pn>新疆</pn>
+        <c c_id="1301">
+            <cn>乌鲁木齐</cn>
+            <cn>奎屯</cn>
+            <cn>石河子</cn>
+            <cn>昌吉</cn>
+            <cn>吐鲁番</cn>
+            <cn>库尔勒</cn>
+            <cn>阿克苏</cn>
+            <cn>喀什</cn>
+            <cn>伊宁</cn>
+            <cn>克拉玛依</cn>
+            <cn>塔城</cn>
+            <cn>哈密</cn>
+            <cn>和田</cn>
+            <cn>阿勒泰</cn>
+            <cn>阿图什</cn>
+            <cn>博乐</cn>
+        </c>
+    </p>
+
+    <p p_id="14">
+        <pn>西藏</pn>
+        <c c_id="1401">
+            <cn>拉萨</cn>
+            <cn>昌都地区</cn>
+            <cn>林芝地区</cn>
+            <cn>山南地区</cn>
+            <cn>日喀则地区</cn>
+            <cn>那曲地区</cn>
+            <cn>阿里地区</cn>
+        </c>
+    </p>
+
+    <p p_id="15">
+        <pn>青海</pn>
+        <c c_id="1501">
+            <cn>西宁</cn>
+            <cn>海东地区</cn>
+            <cn>海北藏族自治州</cn>
+            <cn>黄南藏族自治州</cn>
+            <cn>海南藏族自治州</cn>
+            <cn>果洛藏族自治州</cn>
+            <cn>玉树藏族自治州</cn>
+            <cn>海西蒙古族藏族自治州</cn>
+        </c>
+    </p>
+
+    <p p_id="16">
+        <pn>甘肃</pn>
+        <c c_id="1601">
+            <cn>兰州</cn>
+            <cn>嘉峪关</cn>
+            <cn>金昌</cn>
+            <cn>金川</cn>
+            <cn>白银</cn>
+            <cn>天水</cn>
+            <cn>武威</cn>
+            <cn>张掖</cn>
+            <cn>酒泉</cn>
+            <cn>平凉</cn>
+            <cn>庆阳</cn>
+            <cn>定西</cn>
+            <cn>陇南</cn>
+            <cn>临夏</cn>
+            <cn>合作</cn>
+        </c>
+    </p>
+
+    <p p_id="17">
+        <pn>宁夏</pn>
+        <c c_id="1701">
+            <cn>银川</cn>
+            <cn>石嘴山</cn>
+            <cn>吴忠</cn>
+            <cn>固原</cn>
+            <cn>中卫</cn>
+        </c>
+    </p>
+
+    <p p_id="18">
+        <pn>河南</pn>
+        <c c_id="1801">
+            <cn>郑州</cn>
+            <cn>洛阳</cn>
+            <cn>商丘</cn>
+            <cn>安阳</cn>
+            <cn>南阳</cn>
+            <cn>开封</cn>
+            <cn>平顶山</cn>
+            <cn>焦作</cn>
+            <cn>新乡</cn>
+            <cn>鹤壁</cn>
+            <cn>许昌</cn>
+            <cn>漯河</cn>
+            <cn>三门峡</cn>
+            <cn>信阳</cn>
+            <cn>周口</cn>
+            <cn>驻马店</cn>
+            <cn>济源</cn>
+        </c>
+    </p>
+
+    <p p_id="19">
+        <pn>江苏</pn>
+        <c c_id="1901">
+            <cn>南京</cn>
+            <cn>无锡</cn>
+            <cn>常州</cn>
+            <cn>徐州</cn>
+            <cn>苏州</cn>
+            <cn>南通</cn>
+            <cn>连云港</cn>
+            <cn>淮安</cn>
+            <cn>扬州</cn>
+            <cn>盐城</cn>
+            <cn>镇江</cn>
+            <cn>泰州</cn>
+            <cn>宿迁</cn>
+
+        </c>
+    </p>
+
+    <p p_id="20">
+        <pn>湖北</pn>
+        <c c_id="2001">
+            <cn>武汉</cn>
+            <cn>襄阳</cn>
+            <cn>黄石</cn>
+            <cn>十堰</cn>
+            <cn>宜昌</cn>
+            <cn>鄂州</cn>
+            <cn>荆门</cn>
+            <cn>孝感</cn>
+            <cn>荆州</cn>
+            <cn>黄冈</cn>
+            <cn>咸宁</cn>
+            <cn>随州</cn>
+            <cn>恩施土家族苗族自治州</cn>
+        </c>
+    </p>
+
+    <p p_id="21">
+        <pn>浙江</pn>
+        <c c_id="2101">
+            <cn>杭州</cn>
+            <cn>宁波</cn>
+            <cn>温州</cn>
+            <cn>嘉兴</cn>
+            <cn>湖州</cn>
+            <cn>绍兴</cn>
+            <cn>金华</cn>
+            <cn>衢州</cn>
+            <cn>舟山</cn>
+            <cn>台州</cn>
+            <cn>利水</cn>
+        </c>
+    </p>
+
+    <p p_id="22">
+        <pn>安徽</pn>
+        <c c_id="2201">
+            <cn>合肥</cn>
+            <cn>芜湖</cn>
+            <cn>安庆</cn>
+            <cn>马鞍山</cn>
+            <cn>阜阳</cn>
+            <cn>六安</cn>
+            <cn>滁州</cn>
+            <cn>宿州</cn>
+            <cn>蚌埠</cn>
+            <cn>巢湖</cn>
+            <cn>淮南</cn>
+            <cn>宣城</cn>
+            <cn>亳州</cn>
+            <cn>淮北</cn>
+            <cn>铜陵</cn>
+            <cn>黄山</cn>
+            <cn>池州</cn>
+        </c>
+    </p>
+
+    <p p_id="23">
+        <pn>福建</pn>
+        <c c_id="2301">
+            <cn>福州</cn>
+            <cn>厦门</cn>
+            <cn>莆田</cn>
+            <cn>三明</cn>
+            <cn>泉州</cn>
+            <cn>漳州</cn>
+            <cn>南平</cn>
+            <cn>龙岩</cn>
+            <cn>宁德</cn>
+        </c>
+    </p>
+
+    <p p_id="24">
+        <pn>江西</pn>
+        <c c_id="2401">
+            <cn>南昌</cn>
+            <cn>九江</cn>
+            <cn>景德镇</cn>
+            <cn>萍乡</cn>
+            <cn>新余</cn>
+            <cn>鹰潭</cn>
+            <cn>赣州</cn>
+            <cn>宜春</cn>
+            <cn>上饶</cn>
+            <cn>吉安</cn>
+            <cn>抚州</cn>
+        </c>
+    </p>
+
+    <p p_id="25">
+        <pn>湖南</pn>
+        <c c_id="2501">
+            <cn>长沙</cn>
+            <cn>株洲</cn>
+            <cn>湘潭</cn>
+            <cn>衡阳</cn>
+            <cn>邵阳</cn>
+            <cn>岳阳</cn>
+            <cn>常德</cn>
+            <cn>张家界</cn>
+            <cn>益阳</cn>
+            <cn>郴州</cn>
+            <cn>永州</cn>
+            <cn>怀化</cn>
+            <cn>娄底</cn>
+            <cn>湘西土家苗族自治区</cn>
+        </c>
+    </p>
+
+    <p p_id="26">
+        <pn>贵州</pn>
+        <c c_id="2601">
+            <cn>贵阳</cn>
+            <cn>六盘水</cn>
+            <cn>遵义</cn>
+            <cn>安顺</cn>
+            <cn>黔南布依族苗族自治州</cn>
+            <cn>黔西南布依族苗族自治州</cn>
+            <cn>黔东南苗族侗族自治州</cn>
+            <cn>铜仁</cn>
+            <cn>毕节</cn>
+        </c>
+    </p>
+
+    <p p_id="27">
+        <pn>四川</pn>
+        <c c_id="2701">
+            <cn>成都</cn>
+            <cn>自贡</cn>
+            <cn>攀枝花</cn>
+            <cn>泸州</cn>
+            <cn>德阳</cn>
+            <cn>绵阳</cn>
+            <cn>广元</cn>
+            <cn>遂宁</cn>
+            <cn>内江</cn>
+            <cn>乐山</cn>
+            <cn>南充</cn>
+            <cn>眉山</cn>
+            <cn>宜宾</cn>
+            <cn>广安</cn>
+            <cn>达州</cn>
+            <cn>雅安</cn>
+            <cn>巴中</cn>
+            <cn>资阳</cn>
+            <cn>阿坝藏族羌族自治州</cn>
+            <cn>甘孜藏族自治州</cn>
+            <cn>凉山彝族自治州</cn>
+        </c>
+    </p>
+
+    <p p_id="28">
+        <pn>广东</pn>
+        <c c_id="2801">
+            <cn>广州</cn>
+            <cn>韶关</cn>
+            <cn>深圳</cn>
+            <cn>珠海</cn>
+            <cn>汕头</cn>
+            <cn>佛山</cn>
+            <cn>江门</cn>
+            <cn>湛江</cn>
+            <cn>茂名</cn>
+            <cn>肇庆</cn>
+            <cn>惠州</cn>
+            <cn>梅州</cn>
+            <cn>汕尾</cn>
+            <cn>河源</cn>
+            <cn>阳江</cn>
+            <cn>清远</cn>
+            <cn>东莞</cn>
+            <cn>中山</cn>
+            <cn>潮州</cn>
+            <cn>揭阳</cn>
+        </c>
+    </p>
+
+    <p p_id="29">
+        <pn>云南</pn>
+        <c c_id="2901">
+            <cn>昆明</cn>
+            <cn>曲靖</cn>
+            <cn>玉溪</cn>
+            <cn>保山</cn>
+            <cn>昭通</cn>
+            <cn>丽江</cn>
+            <cn>普洱</cn>
+            <cn>临沧</cn>
+            <cn>楚雄彝族自治州</cn>
+            <cn>大理白族自治州</cn>
+            <cn>红河哈尼族彝族自治州</cn>
+            <cn>文山壮族苗族自治州</cn>
+            <cn>西双版纳傣族自治州</cn>
+            <cn>德宏傣族景颇族自治州</cn>
+            <cn>怒江傈僳族自治州</cn>
+            <cn>迪庆藏族自治州</cn>
+        </c>
+    </p>
+
+    <p p_id="30">
+        <pn>广西</pn>
+        <c c_id="3001">
+            <cn>南宁</cn>
+            <cn>柳州</cn>
+            <cn>桂林</cn>
+            <cn>梧州</cn>
+            <cn>北海</cn>
+            <cn>防城港</cn>
+            <cn>钦州</cn>
+            <cn>贵港</cn>
+            <cn>玉林</cn>
+            <cn>百色</cn>
+            <cn>贺州</cn>
+            <cn>河池</cn>
+            <cn>崇左</cn>
+        </c>
+    </p>
+
+    <p p_id="31">
+        <pn>海南</pn>
+        <c c_id="3101">
+            <cn>海口</cn>
+            <cn>三亚</cn>
+        </c>
+    </p>
+
+    <p p_id="32">
+        <pn>香港</pn>
+        <c c_id="3201">
+            <cn>中西区</cn>
+            <cn>湾仔区</cn>
+            <cn>东区</cn>
+            <cn>南区</cn>
+            <cn>九龙城区</cn>
+            <cn>油尖旺区</cn>
+            <cn>观塘区</cn>
+            <cn>黄大仙区</cn>
+            <cn>深水埗区</cn>
+            <cn>北区</cn>
+            <cn>大埔区</cn>
+            <cn>沙田区</cn>
+            <cn>西贡区</cn>
+            <cn>元朗区</cn>
+            <cn>屯门区</cn>
+            <cn>荃湾区</cn>
+            <cn>葵青区</cn>
+            <cn>离岛区</cn>
+        </c>
+    </p>
+
+    <p p_id="33">
+        <pn>澳门</pn>
+        <c c_id="3301">
+            <cn>澳门半岛</cn>
+            <cn>氹仔岛</cn>
+            <cn>路环岛</cn>
+        </c>
+    </p>
+
+    <p p_id="34">
+        <pn>台湾</pn>
+        <c c_id="3401">
+            <cn>台北</cn>
+            <cn>高雄</cn>
+            <cn>基隆</cn>
+            <cn>台中</cn>
+            <cn>台南</cn>
+            <cn>新竹</cn>
+            <cn>嘉义</cn>
+        </c>
+    </p>
+</citylist>
