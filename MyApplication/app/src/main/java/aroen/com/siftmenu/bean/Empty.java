@@ -5,5 +5,6 @@ package aroen.com.siftmenu.bean;
  */
 
 public class Empty {
-    public static final String s="这是一个测试分支合并的类";
+    public static final String s = "这是一个测试分支合并的类";
+    //hahah
 }
