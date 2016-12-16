@@ -2,13 +2,11 @@ package aroen.com.siftmenu;
 
 import android.content.Context;
 import android.graphics.Color;
-import android.os.Build;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.util.DisplayMetrics;
 import android.util.Xml;
 import android.view.View;
-import android.view.Window;
 import android.view.WindowManager;
 import android.widget.AdapterView;
 import android.widget.EditText;
@@ -113,32 +111,13 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         DisplayMetrics metric = new DisplayMetrics();
         getWindowManager().getDefaultDisplay().getMetrics(metric);
         density = metric.density; // 屏幕密度（0.75 / 1.0 / 1.5）
-
         initData();
         initView();
         initServicePw();
         initSort();
         initTerritorypw();
         initArea();
-    }
 
-    protected void setImmerseLayout(View view) {// view为标题栏
-        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.KITKAT) {
-            Window window = getWindow();
-            window.addFlags(WindowManager.LayoutParams.FLAG_TRANSLUCENT_STATUS);
-            int statusBarHeight = getStatusBarHeight(this.getBaseContext());
-            view.setPadding(0, statusBarHeight, 0, 0);
-        }
-    }
-
-    public int getStatusBarHeight(Context context) {
-        int result = 0;
-        int resourceId = context.getResources().getIdentifier("status_bar_height", "dimen",
-                "android");
-        if (resourceId > 0) {
-            result = context.getResources().getDimensionPixelSize(resourceId);
-        }
-        return result;
     }
 
     private void initArea() {
@@ -529,6 +508,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         layout_expert_sort.setOnClickListener(this);
 
         expert_selector_root = (LinearLayout) findViewById(R.id.expert_selector_root);
+
         expertArea = (TextView) findViewById(R.id.expert_area);
         expertTerritory = (TextView) findViewById(R.id.expert_territory);
         expertService = (TextView) findViewById(R.id.expert_service);
